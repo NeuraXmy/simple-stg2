@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{6e4c8521-beaa-4096-b009-9c2f1cfbfcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Draw">
+      <UniqueIdentifier>{96b8fa06-68d5-490e-9e81-eb053476efaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Application">
+      <UniqueIdentifier>{1311174f-5cce-4e80-95e1-4948cbbe20f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utils">
+      <UniqueIdentifier>{adf8b248-1be4-4c16-afd7-537e878bb062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game">
+      <UniqueIdentifier>{6fdef8cd-cfef-49fa-bb1b-ff5f6e482565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object">
+      <UniqueIdentifier>{51837374-400f-4bf8-b964-95894244c0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Basic">
+      <UniqueIdentifier>{a6ac840e-671d-4aff-9f94-72f2e7ec7f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Element">
+      <UniqueIdentifier>{6f40233e-4d47-439c-a426-5032bc75f4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Element\Bullet">
+      <UniqueIdentifier>{8f1f6077-8944-42c6-bfaf-5a06ccb34ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Element\Player">
+      <UniqueIdentifier>{cadbc773-d524-4278-970d-4b7a51736a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Collision">
+      <UniqueIdentifier>{e204686b-49e2-48de-8f35-41cc0744cae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Collision\Collider">
+      <UniqueIdentifier>{5ffe4019-3258-4980-a29a-92f265168178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Element\Wave">
+      <UniqueIdentifier>{e8b3cd2e-f054-47a3-a6d2-230efd36eed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Application\Input">
+      <UniqueIdentifier>{b548e6bf-a725-4676-97e2-1fd8ed9c8e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Particle">
+      <UniqueIdentifier>{891dc205-8719-43df-be1d-6b24a7eb8877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Element\Stage">
+      <UniqueIdentifier>{7beb106b-d81e-42b4-ac42-8486f2b52a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Element\Shooter">
+      <UniqueIdentifier>{521c0679-2fca-44fd-b08a-cb7408493934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Element\Enemy">
+      <UniqueIdentifier>{3c4c40ec-62f8-47c2-8b4a-5f613632b832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Element\Boss">
+      <UniqueIdentifier>{e6f5621f-e6f8-4b99-a16d-1c477a38dc12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Movement">
+      <UniqueIdentifier>{049e6437-8316-44a4-b1c0-c1bd6028359e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\GameElements">
+      <UniqueIdentifier>{a39d4acb-4a59-4f49-b118-90a711d51487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Object\Element\Item">
+      <UniqueIdentifier>{dbce08d5-2eef-4d5b-aa49-3bdebf94f208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sound">
+      <UniqueIdentifier>{9da37294-d457-4bfc-bbc4-937ed264e777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{ae09c8c4-a51e-459a-9341-dd91a6df4545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Elements">
+      <UniqueIdentifier>{7abddd5f-2da9-4d4a-bba0-e904ab3f34d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game\Collision\CollideAdt">
+      <UniqueIdentifier>{6970cbad-e520-48a8-918a-7038824d9dd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DrawSystem.h">
+      <Filter>Framework\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Framework\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputListener.h">
+      <Filter>Framework\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Framework\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>Framework\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSystem.h">
+      <Filter>Framework\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework\Game\Object\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicObject.h">
+      <Filter>Framework\Game\Object\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteObject.h">
+      <Filter>Framework\Game\Object\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Framework\Game\Object\Element\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorObject.h">
+      <Filter>Framework\Game\Object\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Framework\Game\Object\Element\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectSystem.h">
+      <Filter>Framework\Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CollideSystem.h">
+      <Filter>Framework\Game\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Framework\Game\Collision\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>Framework\Game\Object\Element\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>Framework\Game\Object\Element\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Framework\Game\Object\Element\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathWave.h">
+      <Filter>Framework\Game\Object\Element\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Framework\Game\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Framework\Game\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearBulletWave.h">
+      <Filter>Framework\Game\Object\Element\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Framework\Game\Object\Element\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter.h">
+      <Filter>Framework\Game\Object\Element\Shooter</Filter>
+    </ClInclude>
+    <ClInclude Include="DroneSet.h">
+      <Filter>Framework\Game\Object\Element\Shooter</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Framework\Game\Object\Element\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Framework\Game\Object\Element\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAttack.h">
+      <Filter>Framework\Game\Object\Element\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>Framework\Game\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePanel.h">
+      <Filter>Framework\Game\GameElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Framework\Game\GameElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Framework\Game\Object\Element\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Framework\Game\Object\Element\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Framework\Game\Object\Element\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CollideCircle.h">
+      <Filter>Framework\Game\Collision\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidePointSet.h">
+      <Filter>Framework\Game\Collision\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Framework\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="GLDrawer.h">
+      <Filter>Framework\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="PResource.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="PBossAttack.h">
+      <Filter>Project\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="PBullet.h">
+      <Filter>Project\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="PItem.h">
+      <Filter>Project\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="PPanel.h">
+      <Filter>Project\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="PPlayer.h">
+      <Filter>Project\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="PBoss.h">
+      <Filter>Project\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="PEnemy.h">
+      <Filter>Project\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="PStage.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="CollideBvhTree.h">
+      <Filter>Framework\Game\Collision\CollideAdt</Filter>
+    </ClInclude>
+    <ClInclude Include="CollideAdt.h">
+      <Filter>Framework\Game\Collision\CollideAdt</Filter>
+    </ClInclude>
+    <ClInclude Include="CollideTileMap.h">
+      <Filter>Framework\Game\Collision\CollideAdt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DrawSystem.cpp">
+      <Filter>Framework\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Framework\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputListener.cpp">
+      <Filter>Framework\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Framework\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>Framework\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowSystem.cpp">
+      <Filter>Framework\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework\Game\Object\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicObject.cpp">
+      <Filter>Framework\Game\Object\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteObject.cpp">
+      <Filter>Framework\Game\Object\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Framework\Game\Object\Element\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorObject.cpp">
+      <Filter>Framework\Game\Object\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Framework\Game\Object\Element\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectSystem.cpp">
+      <Filter>Framework\Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CollideSystem.cpp">
+      <Filter>Framework\Game\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Framework\Game\Collision\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CollideCircle.cpp">
+      <Filter>Framework\Game\Collision\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>Framework\Game\Object\Element\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>Framework\Game\Object\Element\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Framework\Game\Object\Element\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathWave.cpp">
+      <Filter>Framework\Game\Object\Element\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Framework\Game\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Framework\Game\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearBulletWave.cpp">
+      <Filter>Framework\Game\Object\Element\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Framework\Game\Object\Element\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter.cpp">
+      <Filter>Framework\Game\Object\Element\Shooter</Filter>
+    </ClCompile>
+    <ClCompile Include="DroneSet.cpp">
+      <Filter>Framework\Game\Object\Element\Shooter</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Framework\Game\Object\Element\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Framework\Game\Object\Element\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAttack.cpp">
+      <Filter>Framework\Game\Object\Element\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement.cpp">
+      <Filter>Framework\Game\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePanel.cpp">
+      <Filter>Framework\Game\GameElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Framework\Game\GameElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Framework\Game\Object\Element\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Framework\Game\Object\Element\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Framework\Game\Object\Element\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CollidePointSet.cpp">
+      <Filter>Framework\Game\Collision\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Framework\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="GLDrawer.cpp">
+      <Filter>Framework\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="PResource.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="PBossAttack.cpp">
+      <Filter>Project\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="PBullet.cpp">
+      <Filter>Project\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="PItem.cpp">
+      <Filter>Project\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="PPanel.cpp">
+      <Filter>Project\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="PPlayer.cpp">
+      <Filter>Project\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="PBoss.cpp">
+      <Filter>Project\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="PEnemy.cpp">
+      <Filter>Project\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="PStage.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="CollideBvhTree.cpp">
+      <Filter>Framework\Game\Collision\CollideAdt</Filter>
+    </ClCompile>
+    <ClCompile Include="CollideAdt.cpp">
+      <Filter>Framework\Game\Collision\CollideAdt</Filter>
+    </ClCompile>
+    <ClCompile Include="CollideTileMap.cpp">
+      <Filter>Framework\Game\Collision\CollideAdt</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
